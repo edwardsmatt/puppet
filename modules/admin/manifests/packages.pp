@@ -33,6 +33,7 @@ class admin::packages {
                       'shutter',
                       'virtualbox',
                       'ubuntu-tweak',
+                      'python-gpgme',
                       ]
     
     package { $base_packages:
