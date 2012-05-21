@@ -1,3 +1,7 @@
+##
+# This module was borrowed from the puppet website:
+# http://projects.puppetlabs.com/projects/1/wiki/Simple_Text_Patterns
+##
 define line($file, $line, $ensure = 'present') {
   case $ensure {
     default : { err ( "unknown ensure value ${ensure}" ) }
