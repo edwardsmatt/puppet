@@ -3,4 +3,4 @@ puppet.conf
 auth.conf
 files
 fileserver.conf
-manifests
+manifests/*

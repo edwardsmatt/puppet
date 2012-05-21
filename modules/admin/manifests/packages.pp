@@ -34,6 +34,7 @@ class admin::packages {
                       'virtualbox',
                       'ubuntu-tweak',
                       'python-gpgme',
+                      'python-pygments',
                       ]
     
     package { $base_packages:
