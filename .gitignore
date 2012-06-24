@@ -1,0 +1,8 @@
+*~
+etckeeper-commit*
+puppet.conf
+auth.conf
+files
+fileserver.conf
+manifests/*
+*.bin
