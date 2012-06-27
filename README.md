@@ -13,12 +13,6 @@ Usage
 =====
 
     
-For Example:
-
-    someone@somewhere:~$ sudo git clone git@github.com:edwardsmatt/puppet-googlechrome.git /etc/puppet/modules/googlechrome
-    Cloning into '/etc/puppet/modules/googlechrome'...
-
-
 The `googlechrome` class uses the following defaults:
 
     $path='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin', 
